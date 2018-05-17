@@ -13,7 +13,7 @@ function BoardMember(name, homeState, training){
     return "I like to help people."
   }
 
-  this.releasePressStatement = function(){
+  BoardMember.prototype.leasePressStatement = function(){
     return "You will see great things from Scuber."
   }
 
